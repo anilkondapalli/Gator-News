@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error404 Link in Error 404 matches snapshot 1`] = `
+<a
+  href="/"
+  onClick={[Function]}
+/>
+`;

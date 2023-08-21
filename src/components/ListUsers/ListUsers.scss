@@ -1,0 +1,29 @@
+@import "../../scss/index.scss";
+img{
+  width: 64px;
+  height: 64px;
+}
+h5{
+  color: black;
+  border-bottom: 1px solid $border-grey;
+  width: 100%;
+  text-decoration: none;
+}
+
+.list-users {
+  padding: 0;
+
+  &__user {
+    padding: 15px 30px;
+    color: $font-light;
+    border-bottom: 1px solid $border-grey;
+    width: 64px;
+    height:64px;
+
+    &:hover {
+      color: $font-light;
+      background-color: $background-dark-light;
+      text-decoration: none;
+    }
+  }
+}

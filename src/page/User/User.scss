@@ -1,0 +1,32 @@
+@import "../../scss/index.scss";
+
+.user {
+  background-color: aliceblue;
+    &__title {
+        border-bottom: 1px solid $border-grey;
+        padding: 15px;
+    
+        h2 {
+          font-size: 22px;
+          margin-bottom: 0;
+          font-weight: bold;
+        }
+      }
+
+      &__tweets {
+        h3 {
+          padding: 15px;
+          font-size: 18px;
+          border-bottom: 1px solid $border-grey;
+          color:rgb(0, 0, 0);
+          background-color: aliceblue;
+          padding-left: 30px;
+
+        }
+    
+        
+      }
+
+
+
+}
